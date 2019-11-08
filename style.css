@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+    border: rgb(54, 53, 53) solid 1px;
+    background: rgb(54, 53, 53);
+    height: 30px;
+    color: white;
+}
+
+.hero-banner {
+    border:black solid 1px;
+    background: black;
+    color: red;
+    
+}
+
+.connect {
+    text-align: center;
+    color: white;
+}
+
+.tagline-intro {
+    border: slategrey solid 1px;
+    text-align: center;
+}
+
+.bio {
+    background-color: lightgrey;
+    border: lightgrey solid 1px;
+}
+
+[class^="project"] {
+    background-color: grey;
+}
