@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Laura Spieker</title>
 
 </head>
 <body>
-    <nav role = "navigation">Navigation
-        <div class = "hamburger navigation-dropdown"></div>
+    <nav role = "navigation" class = big-navigation>
+        <div class = "hamburger navigation-dropdown">&#9776;</div>
     </nav>
     <main role = "main">
         <header role = "banner" class = "hero-banner">
             <h1>Laura Spieker</h1>
             <div class = "connect icons-contact">
-                <a href = "" class = icon>email</a>
-                <a href = "" class = icon>GitHub</a>
-                <a href = "" class = icon>LinkedIn</a>
+                <a href = "mailto:laura.j.spieker@gmail.com" class = icon target = blank><img src = "images\email white navy button.png" alt = "email" class = "icon"></a>
+                <a href = "https://github.com/ljspiek" class = icon target = blank><img src = images\GitHub-Mark-120px-plus.png alt = "GitHub" class = "icon"></a>
+                <a href = "www.linkedin.com/in/laura-spieker-minneapolis" class = icon target = blank><img src = "images\linkedin white navy button.png" alt = "LinkedIn" class = "icon"></a>
             </div>
         </header>
         <section class = "introduction">
@@ -29,24 +31,34 @@
                 </section>
             </section>
             <section class = "bio">
-                <h2>Nice to meet you!</h2>
-                <p class = "bio text">I am an avid learner and determined problem-solver.  I thrive on the excitement of thoroughly understanding complex issues, digging into the details, and emerging with solutions that address more than the initial puzzle.  I recently graduated from Thinkful’s Full Stack Engineering bootcamp, and I enjoy connecting the dots between the front and back-end.</p>
-                <br>
-                <p class = "bio-text">When I’m not coding, I am exploring other ways to broaden my experiences.  Sometimes that means exposing my palette to new flavors, testing out my culinary chops with a challenging new recipe, or curling up with a big book (and my two cats!).  Other times you may find me on a solo hike with my camera in hand, attempting top roping outdoors, or perhaps learning the fine art of whitewater kayaking.</p>
-                <br>
+                <h2 class = "heading-bio">Nice to meet you!</h2>
+                <p class = "bio text">I am a determined problem-solver with a passion for programming who thrives on understanding complex issues, digging into the details, and creating solutions.  I recently graduated from Thinkful’s Full Stack Engineering bootcamp, and I enjoy connecting the dots between the front and back-end.<br>  
+                    <br>
+                    When I’m not coding, I am exploring.  Sometimes that means exposing my palette to new flavors, testing out my culinary chops with a challenging new recipe, or curling up with a big book (and my two cats!).  Other times you may find me on a solo hike with my camera in hand, attempting top roping outdoors, or perhaps learning the fine art of whitewater kayaking.
+                </p>
+                
             </section>
         </section>
         <section class = "projects">
-            <section role = "heading">
-                <h2>Sample Work</h2>
-            </section>
+            <h2 class = "heading-project">Sample Work</h2>
             <div id = "" class = "project-left-align">
                 <h3>Sleep Quiz</h3>
-                <img src = "" alt = "">
+                <a href = "https://ljspiek.github.io/sleep-quiz-app/"class = screenshot><img src = "images\sleep quiz .png" alt = "Sleep Quiz App" class = "app-pic"></a>
                 <div class = "project-left-align">
-                    <div class = "language-container"></div>
+                    <ul class = "language-container">
+                        <li>
+                            <i class="devicon-html5-plain"></i>
+                        </li>
+                        <li>
+                            <i class="devicon-javascript-plain"></i> 
+                        </li>
+                        <li>
+                            <i class="devicon-jquery-plain"></i>
+                        </li>
+                    </ul>
+                </div>
                     <div class = "project-left-align-description">
-                        <p class = "project-left-align-description-text">This is a simple quiz app that tests users knowledge on sleep.  Each question is presented as a multiple choice, requires the user to answer before progressing, and does not allow the user to retry questions.  Users receive a success message or corrected answer, depending upon their selection, and their updated score after each submission.  The final step presents the total score and the ability to restart the quiz.</p>
+                        <p class = "project-left-align-description-text">This is a simple, multiple choice quiz app that tests users knowledge on sleep.</p>
                     </div>
                 </div>
             </div>
