@@ -11,14 +11,14 @@
 
 </head>
 <body>
-    <nav>
+    <nav id = "home">
         <div class = "logo">
-            <h4>Laura Spieker</h4>
+            <h1>Laura Spieker</h4>
         </div>
         <ul class = "nav-links">
-            <li class = "nav"><a href = "#">Home</a></li>
-            <li class = "nav"><a href = "#">About</a></li>
-            <li class = "nav"><a href = "#">Work</a></li>
+            <li class = "nav"><a href = "#about">About</a></li>
+            <li class = "nav"><a href = "#work">Work</a></li>
+            <li class = "nav"><a href = "#contact">Contact</a></li>
         </ul>
         <div class = "hamburger">
             <div class = "line1"></div>
@@ -28,12 +28,6 @@
     </nav>
     <main role = "main">
         <header role = "banner" class = "hero-banner">
-            <h1>Laura Spieker</h1>
-            <div class = "connect icons-contact">
-                <a href = "mailto:laura.j.spieker@gmail.com" class = icon target = blank><img src = "images\email white navy button.png" alt = "email" class = "icon"></a>
-                <a href = "https://github.com/ljspiek" class = icon target = blank><img src = images\GitHub-Mark-120px-plus.png alt = "GitHub" class = "icon"></a>
-                <a href = "www.linkedin.com/in/laura-spieker-minneapolis" class = icon target = blank><img src = "images\linkedin white navy button.png" alt = "LinkedIn" class = "icon"></a>
-            </div>
         </header>
         <section class = "introduction">
             <section class = "graphic-container visual-excitement">
@@ -42,58 +36,68 @@
                     <h2>Hi! I'm Laura, a full stack developer based in Minneapolis, MN.</h2>
                 </section>
             </section>
-            <section class = "bio">
+            <section class = "bio" id = "about">
                 <h2 class = "heading-bio">Nice to meet you!</h2>
-                <p class = "bio-text">I am a determined problem-solver and a recent graduate of Thinkful’s Full Stack Engineering bootcamp.  I thrive on understanding complex issues, digging into the details, and creating solutions.<br>  
-                    <br>
-                    My passions aside from coding include discovering new foods, exploring the outdoors, photography, and dabbling in adventure sports like rock climbing and whitewater kayaking.
-                </p>
+                <div class = "grid-bio">
+                    <div></div>
+                    <p class = "bio-text">I am a determined problem-solver and a recent graduate of Thinkful’s Full Stack Engineering bootcamp.  I thrive on understanding complex issues, digging into the details, and working collaboratively to create solutions.<br>  
+                        <br>
+                        My passions aside from coding include discovering new foods, exploring the outdoors, photography, and dabbling in adventure sports like rock climbing and whitewater kayaking.
+                    </p>
+                    <div></div>
+                </div>
                 
             </section>
         </section>
-        <section class = "projects">
+        
+        <section class = "projects" id = "work">
             <h2 class = "heading-project">Sample Work</h2>
+            <div class = "grid">
+                <div></div>
             <div id = "" class = "project-left-align">
                 <div class = "project-left-align">
                     <a href = "https://ljspiek.github.io/sleep-quiz-app/"class = screenshot target = blank><img src = "images\sleep quiz .png" alt = "Sleep Quiz App" class = "app-pic"></a>
                 </div>
                     <div class = "project-left-align-description">
-                        <p class = "project-left-align-description-text">This is a simple, multiple choice quiz app that tests users knowledge on sleep.</p>
+                        <h4>Sleep Quiz App</h4>
+                        <p class = "project-left-align-description-text">This is the first app I built from scratch during the Thinkful Engineering Bootcamp.  It is a simple, multiple-choice quiz intended for users without prior knowledge on the topic.  I used the following to build this app:</p>
                         <ul class = "language-container">
-                                <li class = "language-icon">
+                                <li class = "language-icon">HTML
                                     <i class="devicon-html5-plain"></i>
                                 </li>
-                                <li class = "language-icon">
+                                <li class = "language-icon">JavaScript
                                     <i class="devicon-javascript-plain"></i> 
                                 </li>
-                                <li class = "language-icon">
+                                <li class = "language-icon">jQuery
                                     <i class="devicon-jquery-plain"></i>
                                 </li>
                             </ul>
                     </div>
             </div>
+            <div></div>
+            <div></div>
             <div id = "" class = "project-right-align">
                     <div class = "project-right-align">
                         <a href = "" class = screenshot target = blank><img src = "images\new.work.JPEG" alt = "New Work Coming Soon!" class = "app-pic"></a>
                     </div>
                         <div class = "project-right-align-description">
-                            <p class = "project-right-align-description-text">Stay tuned for more samples of my work.</p>
+                            <h4>New Project</h4>
+                            <p class = "project-right-align-description-text">Check back for more samples of my work.</p>
                             <ul class = "language-container">
-                                    <li>
-                                        <i class="devicon-html5-plain"></i>
-                                    </li>
-                                    <li>
-                                        <i class="devicon-javascript-plain"></i> 
-                                    </li>
-                                    <li>
-                                        <i class="devicon-jquery-plain"></i>
-                                    </li>
-                                </ul>
+                            </ul>
                         </div>
                 </div>
+            </div>
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <ul id = "contact" class = "list-icons-contact">Let's get in touch:
+            <li class = "icons-contact"><a href = "mailto:laura.j.spieker@gmail.com" class = icon target = blank><img src = "images\email white navy button.png" alt = "email" class = "icon"></a>Email</li>
+            <li class = "icons-contact"><a href = "https://github.com/ljspiek" class = icon target = blank><img src = images\GitHub-Mark-120px-plus.png alt = "GitHub" class = "icon"></a>GitHub</li>
+            <li class = "icons-contact"><a href = "https://www.linkedin.com/in/laura-spieker-minneapolis" class = icon target = blank><img src = "images\linkedin white navy button.png" alt = "LinkedIn" class = "icon"></a>LinkedIn</li>
+        </ul>
+    </footer>
+    <script src = "javascript.js"></script>
 </body>
 </html>
