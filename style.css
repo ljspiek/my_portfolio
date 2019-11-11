@@ -15,9 +15,13 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
 
+}
+
+h4 {
+    margin: 0;
 }
 
 
@@ -163,6 +167,11 @@ nav {
 footer {
     height: 60px;
     background: #2C2940;
+}
+
+.devicon-github-plain-wordmark {
+    font-size: 20px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 550px) {
