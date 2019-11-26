@@ -5,6 +5,11 @@ const navSlide = () => {
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
     });
+
+    nav.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+
 }
 
 navSlide();
